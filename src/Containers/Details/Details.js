@@ -84,7 +84,8 @@ class Details extends Component {
 
     onClickPersonHandler = (index) => {
         // console.log("index : ", index);
-        this.setState({ detail: this.state.data[(this.state.page-1)*10+index] })
+        // console.log("data : ", this.state.dataToDisplay);
+        this.setState({ detail: this.state.dataToDisplay[this.state.page-1].data[index] });
     }
 
     sortByName = () => {
