@@ -1,0 +1,46 @@
+.container  {
+    margin: 0 0 10px 0;
+    padding: 5px;
+    color: #d4d4d4;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.container:hover    {
+    color: grey;
+}
+
+.col_name    {
+    display: inline-block;
+    width: 20%;
+    margin: 0 0.3%;
+    vertical-align: middle;
+}
+
+.col    {
+    display: inline-block;
+    width: 19.25%;
+    margin: 0 0.3%;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 800px) {
+    .container  {
+        font-size: 70%;
+        padding: 2%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .container {
+        font-size: 90%;
+    }
+
+    .col_name   {
+        width: 99%;
+    }
+
+    .col    {
+        width: 99%;
+    }
+}

@@ -1,0 +1,120 @@
+.taskbar    {
+    color: whitesmoke;
+    margin: 20px 10% 0 10%;
+    background-color: #3b3b3b;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.homeworld  {
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.worldList  {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 10px 0;
+    background-color: #525252;
+    top: 30px;
+    border-radius: 6px;
+    max-height: 40vh;
+    overflow: auto;
+}
+.worldList::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.listItems  {
+    padding: 0 10px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.search {
+    background: transparent;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.listItems:hover    {
+    background-color: #777777;
+}
+
+.tools  {
+    display: inline-block;
+    width: 33.33%;
+}
+
+.sortTag    {
+    padding: 0 5px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.sortTag:hover  {
+    color: rgb(151, 151, 151);
+}
+
+.notFound   {
+    color: whitesmoke;
+    font-weight: 700;
+    padding: 50px 0;
+}
+
+.container  {
+    padding: 20px 10%;
+    background-color: #000000;
+}
+
+.header {
+    margin: 0 0 10px 0;
+    padding: 5px;
+    color: #373b4f;
+    font-weight: 700;
+}
+
+.pagination {
+    margin: 20px;
+    color: white;
+}
+
+.pageControl    {
+    padding: 0 20px 5px 20px;
+    margin: 0 30px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid white;
+    transition: 300ms;
+}
+
+.pageNumber {
+    padding: 0 20px 5px 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+.pageControl:hover  {
+    color: #808080;
+    border-color: #808080;
+}
+
+@media only screen and (max-width: 800px) {
+    .container  {
+        padding: 20px 5%;
+    }
+
+    .tools  {
+        font-size: 70%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .tools  {
+        width: 100%;
+    }
+}
