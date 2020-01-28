@@ -9,7 +9,7 @@ import {
     Route,
     Link
 } from "react-router-dom";
-import UserDetail from '../../Components/UserDetail/UserDetail';
+import UserDetail from '../../Containers/UserDetail/UserDetail';
 
 class Details extends Component {
     state = {

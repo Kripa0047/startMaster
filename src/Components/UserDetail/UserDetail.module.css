@@ -13,11 +13,13 @@
     display: inline-block;
     font-weight: 700;
     border-right: 2px solid whitesmoke;
+    vertical-align: middle;
 }
 
 .col_70 {
     width: 70%;
     display: inline-block;
+    vertical-align: middle;
 }
 
 @media only screen and (max-width: 800px) {
