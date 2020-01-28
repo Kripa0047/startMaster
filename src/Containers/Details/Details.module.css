@@ -111,6 +111,10 @@
     .tools  {
         font-size: 70%;
     }
+
+    .pageControl    {
+        margin: 0 5px;
+    }
 }
 
 @media only screen and (max-width: 550px) {

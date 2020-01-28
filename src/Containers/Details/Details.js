@@ -23,7 +23,8 @@ class Details extends Component {
         filterListShow: false,
         planets: [],
         selectedplanets: [],
-        searchText: ''
+        searchText: '',
+        detail: []
     }
 
     dataToDisplay = (data) => {
@@ -82,7 +83,8 @@ class Details extends Component {
     }
 
     onClickPersonHandler = (index) => {
-        console.log("index : ", index);
+        // console.log("index : ", index);
+        this.setState({ detail: this.state.data[(this.state.page-1)*10+index] })
     }
 
     sortByName = () => {
@@ -217,7 +219,9 @@ class Details extends Component {
             <Router>
                 <Switch>
                     <Route path="/about">
-                        <UserDetail /> 
+                        <UserDetail 
+                            detail={this.state.detail}
+                        />
                     </Route>
                     <Route path="/">
                         <div>
