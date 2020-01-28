@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "187e7cd9825d8eb31838192abb351132",
+    "revision": "b78185239ba0f4990d44676160862f66",
     "url": "/startMaster/index.html"
   },
   {
-    "revision": "93d024411560fd6bf551",
+    "revision": "88513eeb491e2c5bbdfb",
     "url": "/startMaster/static/css/main.6bf27f91.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/startMaster/static/js/2.61c1096e.chunk.js.LICENSE"
   },
   {
-    "revision": "93d024411560fd6bf551",
-    "url": "/startMaster/static/js/main.2b2f796a.chunk.js"
+    "revision": "88513eeb491e2c5bbdfb",
+    "url": "/startMaster/static/js/main.98727455.chunk.js"
   },
   {
     "revision": "4a8245f9dfa450d830a5",

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/startMaster/static/css/main.6bf27f91.chunk.css",
-    "main.js": "/startMaster/static/js/main.2b2f796a.chunk.js",
-    "main.js.map": "/startMaster/static/js/main.2b2f796a.chunk.js.map",
+    "main.js": "/startMaster/static/js/main.98727455.chunk.js",
+    "main.js.map": "/startMaster/static/js/main.98727455.chunk.js.map",
     "runtime-main.js": "/startMaster/static/js/runtime-main.588feebe.js",
     "runtime-main.js.map": "/startMaster/static/js/runtime-main.588feebe.js.map",
     "static/js/2.61c1096e.chunk.js": "/startMaster/static/js/2.61c1096e.chunk.js",
     "static/js/2.61c1096e.chunk.js.map": "/startMaster/static/js/2.61c1096e.chunk.js.map",
     "index.html": "/startMaster/index.html",
-    "precache-manifest.2f4fb986598fa08144cc1f97f51243c2.js": "/startMaster/precache-manifest.2f4fb986598fa08144cc1f97f51243c2.js",
+    "precache-manifest.abfd064d18214967a0b4cf289a2cc05a.js": "/startMaster/precache-manifest.abfd064d18214967a0b4cf289a2cc05a.js",
     "service-worker.js": "/startMaster/service-worker.js",
     "static/css/main.6bf27f91.chunk.css.map": "/startMaster/static/css/main.6bf27f91.chunk.css.map",
     "static/js/2.61c1096e.chunk.js.LICENSE": "/startMaster/static/js/2.61c1096e.chunk.js.LICENSE",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.588feebe.js",
     "static/js/2.61c1096e.chunk.js",
     "static/css/main.6bf27f91.chunk.css",
-    "static/js/main.2b2f796a.chunk.js"
+    "static/js/main.98727455.chunk.js"
   ]
 }
